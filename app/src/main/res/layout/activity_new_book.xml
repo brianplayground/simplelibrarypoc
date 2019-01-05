@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingTop="75dp">
+
+    <EditText
+            android:id="@+id/et_author_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:layout_gravity="center"
+            android:hint="@string/author" />
+
+    <EditText
+            android:id="@+id/et_book_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:layout_gravity="center"
+            android:hint="@string/book" />
+    <EditText
+            android:id="@+id/et_booK_isdn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:layout_gravity="center"
+            android:hint="@string/book" />
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+        <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel" />
+        <Button
+                android:id="@+id/btn_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save" />
+    </LinearLayout>
+</LinearLayout>
