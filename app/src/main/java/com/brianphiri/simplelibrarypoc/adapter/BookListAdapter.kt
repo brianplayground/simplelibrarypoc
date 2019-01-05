@@ -24,6 +24,10 @@ class BookListAdapter(private val context: Context) : RecyclerView.Adapter<BookL
         holder.bind(book)
     }
 
+    fun setBooks(books: List<Book>){
+        bookList = books
+        notifyDataSetChanged()
+    }
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
 
